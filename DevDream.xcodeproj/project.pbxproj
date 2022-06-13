@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6872EAAC2857C4FB00F403BB /* DevDreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872EAAB2857C4FB00F403BB /* DevDreamApp.swift */; };
-		6872EAAE2857C4FB00F403BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872EAAD2857C4FB00F403BB /* ContentView.swift */; };
+		6872EAAE2857C4FB00F403BB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872EAAD2857C4FB00F403BB /* MainView.swift */; };
 		6872EAB02857C4FF00F403BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6872EAAF2857C4FF00F403BB /* Assets.xcassets */; };
 		6872EAB32857C4FF00F403BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6872EAB22857C4FF00F403BB /* Preview Assets.xcassets */; };
+		6872EABB2857C5AA00F403BB /* Base64View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872EABA2857C5AA00F403BB /* Base64View.swift */; };
+		6872EABF2857CC1100F403BB /* HashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872EABE2857CC1100F403BB /* HashView.swift */; };
+		6872EAC12857D18000F403BB /* CopyPasteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872EAC02857D18000F403BB /* CopyPasteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6872EAA82857C4FB00F403BB /* DevDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6872EAAB2857C4FB00F403BB /* DevDreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevDreamApp.swift; sourceTree = "<group>"; };
-		6872EAAD2857C4FB00F403BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6872EAAD2857C4FB00F403BB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6872EAAF2857C4FF00F403BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6872EAB22857C4FF00F403BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6872EAB42857C4FF00F403BB /* DevDream.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevDream.entitlements; sourceTree = "<group>"; };
+		6872EABA2857C5AA00F403BB /* Base64View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64View.swift; sourceTree = "<group>"; };
+		6872EABE2857CC1100F403BB /* HashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashView.swift; sourceTree = "<group>"; };
+		6872EAC02857D18000F403BB /* CopyPasteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyPasteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				6872EAAB2857C4FB00F403BB /* DevDreamApp.swift */,
-				6872EAAD2857C4FB00F403BB /* ContentView.swift */,
+				6872EAAD2857C4FB00F403BB /* MainView.swift */,
+				6872EABA2857C5AA00F403BB /* Base64View.swift */,
+				6872EABE2857CC1100F403BB /* HashView.swift */,
+				6872EAC02857D18000F403BB /* CopyPasteButton.swift */,
 				6872EAAF2857C4FF00F403BB /* Assets.xcassets */,
 				6872EAB42857C4FF00F403BB /* DevDream.entitlements */,
 				6872EAB12857C4FF00F403BB /* Preview Content */,
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6872EAAE2857C4FB00F403BB /* ContentView.swift in Sources */,
+				6872EABF2857CC1100F403BB /* HashView.swift in Sources */,
+				6872EAAE2857C4FB00F403BB /* MainView.swift in Sources */,
+				6872EAC12857D18000F403BB /* CopyPasteButton.swift in Sources */,
+				6872EABB2857C5AA00F403BB /* Base64View.swift in Sources */,
 				6872EAAC2857C4FB00F403BB /* DevDreamApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
