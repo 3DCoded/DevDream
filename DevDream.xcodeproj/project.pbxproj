@@ -26,6 +26,7 @@
 		6872EABA2857C5AA00F403BB /* Base64View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64View.swift; sourceTree = "<group>"; };
 		6872EABE2857CC1100F403BB /* HashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashView.swift; sourceTree = "<group>"; };
 		6872EAC02857D18000F403BB /* CopyPasteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyPasteButton.swift; sourceTree = "<group>"; };
+		6872EAC22857D58800F403BB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		6872EA9F2857C4FB00F403BB = {
 			isa = PBXGroup;
 			children = (
+				6872EAC22857D58800F403BB /* README.md */,
 				6872EAAA2857C4FB00F403BB /* DevDream */,
 				6872EAA92857C4FB00F403BB /* Products */,
 			);
