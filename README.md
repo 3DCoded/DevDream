@@ -3,6 +3,8 @@
 
 **DevDream** is (will be) a developer's dream tool with a suite of tools to help simplify a developer's workflow.
 
+## NOTE: There will be no releases while this is still in Alpha stage. When this is in Beta stage, there will be a beta release.
+
 ## Current Tools
 * Base64 Encode/Decode
 * Hashers (MD5,SHA1,SHA256,SHA384,SHA512)
@@ -13,7 +15,7 @@ More tools are planned for the future.
 * More tools
 * Search Tools
 * Proper icons for all tools
-* App icon
+* Better app icon
 * Branding
 * Preferences
 * Home Page
