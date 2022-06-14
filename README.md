@@ -1,3 +1,5 @@
+![](https://github.com/smattar2020/DevDream/raw/main/DevDream/Assets.xcassets/AppIcon.appiconset/1024.png)
+
 #  DevDream (Alpha)
 ## A developer's new dream tool
 
