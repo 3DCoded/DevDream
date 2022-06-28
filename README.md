@@ -10,6 +10,7 @@
 ## Current Tools
 * Base64 Encode/Decode
 * Hashers (MD5,SHA1,SHA256,SHA384,SHA512)
+* Image Converter (currently supports PNG, JPEG; TIFF support planned for future update)
 
 More tools are planned for the future.
 
