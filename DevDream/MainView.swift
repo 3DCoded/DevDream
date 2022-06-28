@@ -12,9 +12,10 @@ struct MainView: View {
     enum ToolSelection {
         case base64
         case hash
+        case imageConverter
     }
     
-    @State var selectedTool: ToolSelection?
+    @State var selectedTool: ToolSelection? = .imageConverter
     
     var body: some View {
         NavigationView {
@@ -23,7 +24,10 @@ struct MainView: View {
                     Label("Base64 Encode/Decode", systemImage: "square.grid.3x3.fill")
                 }
                 NavigationLink(destination: HashView(), tag: ToolSelection.base64, selection: $selectedTool) {
-                    Label("Hasher", systemImage: "square.grid.3x3.fill")
+                    Label("Hasher", systemImage: "key")
+                }
+                NavigationLink(destination: ImageConverterView(), tag: ToolSelection.imageConverter, selection: $selectedTool) {
+                    Label("Image Converter", systemImage: "photo")
                 }
             }
             .listStyle(.sidebar)
